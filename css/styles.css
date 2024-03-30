@@ -4,8 +4,31 @@ body {
   background-color: white;
 }
 
+h1,
+h2,
+h3,
+h4,
+ul,
+p {
+  margin: 0%;
+  padding: 0%;
+}
+.container {
+  max-width: 1158px;
+  padding: 32px 0;
+  margin: 0 auto;
+}
+
 /* -----------HEADER----------- */
+
+.header-container {
+  display: flex;
+}
+
 .navigation {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
 }
 
 .navigation-logo {
@@ -16,6 +39,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .web-logo {
@@ -27,6 +51,9 @@ body {
 }
 
 .navigation-list {
+  display: flex;
+  gap: 40px;
+  padding: 24px 0;
 }
 
 .navigation-list-item {
@@ -47,6 +74,11 @@ body {
 }
 
 .address-list {
+  display: inline-flex;
+  padding-top: 24px;
+}
+.mail {
+  padding-right: 40px;
 }
 
 .contacts-list {
@@ -75,7 +107,13 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  max-width: 496px;
+  max-height: 120px;
+  margin: 0 auto;
+  padding-top: 188px;
+  padding-bottom: 292px;
 }
+
 .first-btn {
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
@@ -85,6 +123,9 @@ body {
   letter-spacing: 0.04em;
   color: #fff;
   cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  min-width: 169px;
 }
 .first-btn:hover,
 .first-btn:focus {
@@ -103,12 +144,12 @@ a {
 /* -----------SECOND SECTION ----------- */
 
 .features {
+  padding: 115px 0;
 }
 
 .features-list {
-}
-
-.features-list-item {
+  display: flex;
+  gap: 24px;
 }
 
 .features-list-header {
@@ -126,12 +167,14 @@ a {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
 /* -----------SECOND SECTION ----------- */
 
 /* -----------THIRD SECTION ----------- */
 
 .our-team {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .our-team-header,
@@ -143,9 +186,12 @@ a {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
 .our-team-list {
+  display: flex;
+  gap: 24px;
 }
 
 .our-team-list-item {
@@ -169,6 +215,9 @@ a {
   text-align: center;
   color: #2e2f42;
 }
+.our-team-list-header {
+  padding-top: 32px;
+}
 
 .our-team-list-text,
 .portfolio-list-text {
@@ -178,15 +227,22 @@ a {
   letter-spacing: 0.02em;
   color: #434455;
 }
+.our-team-list-text {
+}
 /* -----------THIRD SECTION ----------- */
 
 /* -----------FOURTH SECTION ----------- */
 
 .portfolio {
+  padding: 120px;
 }
 .portfolio-header {
 }
 .portfolio-list {
+  flex-wrap: wrap;
+  display: flex;
+  width: calc((100% -24) / 3);
+  gap: 24px;
 }
 .portfolio-list-item {
 }
