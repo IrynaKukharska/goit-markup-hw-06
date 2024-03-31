@@ -48,7 +48,6 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-right: 76px;
-  padding: 24px 0;
 }
 
 .web-logo {
@@ -57,6 +56,7 @@ img {
 
 .navigation-links {
   color: #2e2f42;
+  padding: 24px 0;
 }
 
 .navigation-list {
@@ -287,11 +287,11 @@ a {
 .portfolio-list {
   flex-wrap: wrap;
   display: flex;
-  width: calc((100% -24) / 3);
+  /* width: calc((100% -24) / 3); */
   column-gap: 24px;
   row-gap: 48px;
 }
-.portfolio-list-item:first-child {
+.portfolio-list-item .first {
   width: calc((100% - 48px) / 3);
 }
 
