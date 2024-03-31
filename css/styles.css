@@ -48,6 +48,7 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-right: 76px;
+  padding: 24px 0;
 }
 
 .web-logo {
@@ -69,7 +70,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding: 24px 0;
 }
 
 .navigation-links:hover,
@@ -223,7 +223,6 @@ a {
 .our-team-list {
   display: flex;
   gap: 24px;
-  width: calc((100% - 72px) / 4);
 }
 
 .our-team-list-item {
@@ -234,6 +233,7 @@ a {
   letter-spacing: 0.02em;
   color: #2e2f42;
   border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 72px) / 4);
 }
 
 .our-team-list-image {
@@ -273,7 +273,8 @@ a {
 /* -----------FOURTH SECTION ----------- */
 
 .portfolio {
-  padding: 120px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .fourth-container {
@@ -281,7 +282,7 @@ a {
   padding-bottom: 120px;
 }
 .portfolio-header {
-  margin-bottom: 8px;
+  margin-bottom: 72px;
 }
 .portfolio-list {
   flex-wrap: wrap;
@@ -290,7 +291,7 @@ a {
   column-gap: 24px;
   row-gap: 48px;
 }
-.portfolio-list-item {
+.portfolio-list-item:first-child {
   width: calc((100% - 48px) / 3);
 }
 
@@ -302,6 +303,7 @@ a {
 .portfolio-list-image {
 }
 .portfolio-list-header {
+  margin-bottom: 8px;
 }
 .portfolio-list-text {
 }
