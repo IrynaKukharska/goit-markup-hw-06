@@ -291,7 +291,7 @@ a {
   column-gap: 24px;
   row-gap: 48px;
 }
-.portfolio-list-item .first {
+.portfolio-list-item:first-child {
   width: calc((100% - 48px) / 3);
 }
 
