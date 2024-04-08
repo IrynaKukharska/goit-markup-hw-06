@@ -288,6 +288,7 @@ a {
   display: flex;
   justify-content: center;
   gap: 24px;
+  margin-top: 8px;
 }
 
 .social-media-list-item {
@@ -342,7 +343,6 @@ a {
 .surname {
   padding: 32px 0;
 }
-/* -----------THIRD SECTION ----------- */
 
 /* -----------FOURTH SECTION ----------- */
 
