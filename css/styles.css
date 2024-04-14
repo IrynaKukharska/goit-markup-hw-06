@@ -665,6 +665,10 @@ a {
 .modal-form {
 }
 
+.first-field {
+  margin-bottom: 8px;
+}
+
 .modal-field {
   margin-bottom: 16px;
 }
