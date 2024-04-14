@@ -656,17 +656,13 @@ a {
   text-align: center;
   color: #2e2f42;
   max-width: 360;
-  padding-top: 50px;
+
   margin-bottom: 16px;
 }
 
 /* ---------ФОРМА----------- */
 
 .modal-form {
-}
-
-.first-field {
-  margin-bottom: 8px;
 }
 
 .modal-field {
