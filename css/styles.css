@@ -669,6 +669,10 @@ a {
   margin-bottom: 8px;
 }
 
+.textarea-container {
+  margin-bottom: 16px;
+}
+
 .modal-field-icon {
   fill: #2e2f42;
   position: absolute;
