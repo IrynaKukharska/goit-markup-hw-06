@@ -672,6 +672,8 @@
     </footer>
 
     <!-------------МОДАЛЬНЕ ВІКНО---------------->
+    <!-- ------------------------------------- -->
+    <!------------------------------------------->
 
     <div class="backdrop is-open">
       <div class="modal">
@@ -739,22 +741,23 @@
               placeholder="Text input"
             ></textarea>
           </div>
-          <div class="modal-checkbox">
+
+          <div class="modal-checkbox-container">
             <input
               type="checkbox"
-              class="modal-checkbox"
+              class="modal-checkbox visually-hidden"
               id="user-privacy"
               value="true"
               name="user-privacy"
             />
-          </div>
-          <div class="checkbox-container">
             <label class="checkbox-label" for="user-privacy">
               <span class="accent">
                 <svg class="modal-svg" width="10" height="8">
                   <use href="./images/vector.svg#icon-vector"></use>
-                </svg> </span
-              >I accept the terms and conditions of the
+                </svg>
+              </span>
+
+              I accept the terms and conditions of the
               <a class="policy-link" href="">Privacy Policy</a>
             </label>
           </div>
