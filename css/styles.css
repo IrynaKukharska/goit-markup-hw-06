@@ -252,15 +252,6 @@ a {
 
 /* --------------TABLET--------------- */
 
-.main-header {
-  max-width: 496px;
-  font-size: 56px;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #fff;
-}
-
 .first-btn {
   font-family: "Roboto", sans-serif;
   color: white;
