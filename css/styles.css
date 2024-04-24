@@ -34,6 +34,10 @@ a {
   text-decoration: none;
 }
 
+address {
+  font-style: normal;
+}
+
 /* -----------HEADER----------- */
 .page-header {
   border-bottom: 1px solid #e7e9fc;
@@ -172,13 +176,13 @@ a {
   gap: 40px;
 }
 
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
   }
 }
 
-@media only screen and (min-width: 1158px) {
+@media screen and (min-width: 1158px) {
   .container {
     max-width: 1159px;
     padding: 0 15px;
@@ -195,7 +199,7 @@ a {
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .navigation-list {
     display: flex;
     gap: 40px;
@@ -253,7 +257,7 @@ a {
   }
 }
 
-@media only screen and (min-width: 1158px) {
+@media screen and (min-width: 1158px) {
   .navigation-logo {
     margin-right: 76px;
   }
@@ -380,7 +384,7 @@ a {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/desctop-images/backgroundx1.jpg);
+      url(../images/desktop-images/backgroundx1.jpg);
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -391,15 +395,13 @@ a {
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/tab-images/tab-backgroundx2.jpg);
+        url(../images/desktop-images/backgroundx2.jpg);
     }
   }
 }
 
 /* -----------SECOND SECTION ----------- */
 
-.second-section-container {
-}
 .features {
   padding: 96px 0;
 }
@@ -446,9 +448,7 @@ a {
   display: none;
 }
 
-/* --------ПЛАНШЕТ----------- */
-
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .features-list {
     gap: 24px;
     row-gap: 72px;
@@ -600,7 +600,7 @@ a {
 .surname {
   padding: 32px 0;
 }
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .our-team-list {
     flex-direction: row;
     flex-wrap: wrap;
@@ -608,7 +608,7 @@ a {
     gap: 64px 24px;
   }
 }
-@media only screen and (min-width: 1158px) {
+@media screen and (min-width: 1158px) {
   .our-team {
     padding: 120px 0;
   }
@@ -678,7 +678,7 @@ a {
 .portfolio-list-text {
 }
 
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .portfolio-list {
     flex-direction: row;
     flex-wrap: wrap;
@@ -689,7 +689,7 @@ a {
   }
 }
 
-@media only screen and (min-width: 1158px) {
+@media screen and (min-width: 1158px) {
   .portfolio {
     padding: 120px 0;
   }
@@ -718,8 +718,6 @@ a {
   align-items: center;
 }
 
-.logo-text-container {
-}
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -746,9 +744,6 @@ a {
   color: #f4f4fd;
   letter-spacing: 0.02em;
   max-width: 264px;
-}
-
-.social-media-footer-container {
 }
 
 .social-media-paragraph {
@@ -803,25 +798,23 @@ a {
   align-items: center;
   gap: 24px;
 }
-.footer-label {
-}
+
 .footer-input {
-  border: 1px solid #fff;
+  border: 1px solid gray;
   border-radius: 4px;
-  width: 264px;
+  width: 288px;
   height: 40px;
   background-color: transparent;
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
   padding-left: 16px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   color: #fff;
   outline: transparent;
 }
 
 .footer-input::placeholder {
-  color: #fff;
+  color: gray;
 }
 
 .form-button {
@@ -847,7 +840,7 @@ a {
   fill: #fff;
 }
 
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .footer-container {
     flex-direction: row;
     flex-wrap: wrap;
@@ -883,6 +876,14 @@ a {
 
   .social-media-footer-container {
     margin-right: auto;
+  }
+
+  .footer-input {
+    border: 1px solid #fff;
+  }
+
+  .footer-input::placeholder {
+    color: #fff;
   }
 }
 /* ----------FOOTER FORM ---------- */
